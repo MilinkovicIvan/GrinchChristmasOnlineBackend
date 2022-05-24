@@ -1,0 +1,23 @@
+{
+  "name": "grinchchristmasonlinebackend",
+  "version": "1.0.0",
+  "description": "nodejs, express, mongoDB backend\r test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilinkovicIvan/GrinchChristmasOnlineBackend.git"
+  },
+  "author": "Ivan Milinkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilinkovicIvan/GrinchChristmasOnlineBackend/issues"
+  },
+  "homepage": "https://github.com/MilinkovicIvan/GrinchChristmasOnlineBackend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4"
+  }
+}
