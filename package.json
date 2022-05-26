@@ -4,6 +4,8 @@
   "description": "nodejs, express, mongoDB backend\r test",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon server.js",
+    "production": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,12 @@
   },
   "homepage": "https://github.com/MilinkovicIvan/GrinchChristmasOnlineBackend#readme",
   "dependencies": {
+    "argon2-ffi": "^2.0.0",
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
